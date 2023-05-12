@@ -1,0 +1,9 @@
+name: GitHUB Actions Demo
+run-name: Testing out Github Actions
+on: [push]
+jobs:
+  Basic-Workflow:
+    runs-on: ubuntu-latest
+    steps:
+      -run: echo "sad"
+
